@@ -1,6 +1,6 @@
 ## Geting Started
 
-First things first.  Run `rspec` in the terminal to make sure everything is working.
+First things first.  Run `bundle install` then `rspec` in the terminal to make sure everything is working.
 
 Then, you can run the calculator with the following command:
 ```
