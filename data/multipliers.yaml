@@ -1,0 +1,30 @@
+zip_code:
+  starts_with:
+    1: 0.85
+    2: 0.85
+    3: 0.85
+    4: 1.0
+    5: 1.0
+    6: 1.0
+    7: 1.129
+    8: 1.129
+    9: 1.129
+previous_insurance:
+  true: 1.0
+  false: 1.5
+age:
+  - range: !ruby/range 18..30 
+    value: 1.0
+  - range: !ruby/range 31..50 
+    value: 1.75
+  - range: !ruby/range 51..60 
+    value: 2.25
+  - range: !ruby/range 60..
+    value: 4.0
+public_health_insurance:
+  true: 1.0
+  false: 1.5
+tax:
+  personal_liability: 0.19
+  dental: 0.0
+

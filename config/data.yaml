@@ -1,0 +1,6 @@
+production:
+  multipliers: 'data/multipliers.yaml'
+  prices: 'data/prices.yaml'
+test:
+  multipliers: 'spec/fixtures/multipliers.yaml'
+  prices: 'spec/fixtures/prices.yaml'
